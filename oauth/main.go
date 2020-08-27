@@ -3,11 +3,11 @@ package main
 import (
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
-	"./routes"
-	_"./data"
+	_ "go-oauth2-sso/oauth/data"
+	"go-oauth2-sso/oauth/routes"
+	"go-oauth2-sso/oauth/util"
 	"log"
 	"os"
-	"./util"
 )
 
 func init() {

@@ -1,15 +1,15 @@
 package routes
 
 import (
+	"encoding/json"
 	"github.com/martini-contrib/render"
+	"go-oauth2-sso/oauth/data"
+	"go-oauth2-sso/oauth/model"
+	"go-oauth2-sso/oauth/util"
+	"io/ioutil"
+	"log"
 	"net/http"
 	"net/url"
-	"io/ioutil"
-	"../util"
-	"../data"
-	"../model"
-	"log"
-	"encoding/json"
 )
 
 type AuthResult struct {

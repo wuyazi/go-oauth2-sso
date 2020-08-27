@@ -2,11 +2,11 @@ package routes
 
 import (
 	"github.com/martini-contrib/render"
+	"go-oauth2-sso/oauth/data"
+	"go-oauth2-sso/oauth/util"
+	"log"
 	"net/http"
 	"net/url"
-	"../data"
-	"../util"
-	"log"
 )
 
 func Authorize(r render.Render, res http.ResponseWriter, req *http.Request) {

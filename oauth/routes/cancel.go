@@ -1,12 +1,12 @@
 package routes
 
 import (
-	"github.com/martini-contrib/render"
-	"net/http"
-	"../data"
 	"encoding/json"
-	"net/url"
+	"github.com/martini-contrib/render"
+	"go-oauth2-sso/oauth/data"
 	"log"
+	"net/http"
+	"net/url"
 )
 
 func Cancel(r render.Render, res http.ResponseWriter, req *http.Request) {

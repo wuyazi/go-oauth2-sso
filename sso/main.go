@@ -3,10 +3,10 @@ package main
 import (
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
-	"./routes"
-	"./util"
-	"os"
+	"go-oauth2-sso/sso/routes"
+	"go-oauth2-sso/sso/util"
 	"log"
+	"os"
 )
 
 func init() {

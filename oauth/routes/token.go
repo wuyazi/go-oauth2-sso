@@ -3,11 +3,11 @@ package routes
 import (
 	"github.com/martini-contrib/render"
 	"github.com/satori/go.uuid"
-	"net/http"
-	"../data"
-	"../model"
-	"../util"
+	"go-oauth2-sso/oauth/data"
+	"go-oauth2-sso/oauth/model"
+	"go-oauth2-sso/oauth/util"
 	"log"
+	"net/http"
 	"time"
 )
 

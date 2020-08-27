@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"../util"
+	"go-oauth2-sso/oauth/util"
 )
 
 var Conn *sql.DB

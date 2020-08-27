@@ -2,9 +2,9 @@ package routes
 
 import (
 	"github.com/martini-contrib/render"
-	"net/http"
-	"../data"
+	"go-oauth2-sso/oauth/data"
 	"log"
+	"net/http"
 )
 
 func Check(r render.Render, res http.ResponseWriter, req *http.Request) {

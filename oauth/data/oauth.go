@@ -1,10 +1,10 @@
 package data
 
 import (
-	"../model"
-	"../util"
-	"strings"
 	"fmt"
+	"go-oauth2-sso/oauth/model"
+	"go-oauth2-sso/oauth/util"
+	"strings"
 	"time"
 )
 

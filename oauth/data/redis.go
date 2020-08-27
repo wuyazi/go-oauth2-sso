@@ -2,7 +2,7 @@ package data
 
 import (
 	"github.com/go-redis/redis"
-	"../util"
+	"go-oauth2-sso/oauth/util"
 )
 
 var Cli = new(redis.Client)

@@ -2,12 +2,12 @@ package routes
 
 import (
 	"github.com/martini-contrib/render"
+	"go-oauth2-sso/sso/data"
+	"go-oauth2-sso/sso/model"
+	"go-oauth2-sso/sso/util"
+	"log"
 	"net/http"
 	"regexp"
-	"../data"
-	"../model"
-	"../util"
-	"log"
 	"strings"
 )
 

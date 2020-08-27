@@ -1,11 +1,11 @@
 package data
 
 import (
-	"../util"
-	"../model"
-	"fmt"
 	"encoding/json"
+	"fmt"
 	"github.com/satori/go.uuid"
+	"go-oauth2-sso/sso/model"
+	"go-oauth2-sso/sso/util"
 	"time"
 )
 

@@ -2,10 +2,10 @@ package routes
 
 import (
 	"github.com/martini-contrib/render"
-	"net/http"
-	"../data"
-	"strings"
+	"go-oauth2-sso/sso/data"
 	"log"
+	"net/http"
+	"strings"
 )
 
 func ServiceValidate(r render.Render, res http.ResponseWriter, req *http.Request) {
